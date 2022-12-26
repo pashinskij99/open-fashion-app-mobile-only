@@ -1,0 +1,38 @@
+.title1 {
+    font-size: 1.8rem;
+    line-height: 4rem;
+    letter-spacing: 0.4rem;
+}
+.title2 {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    letter-spacing: 0.2rem;
+}
+.title3 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
+}
+
+.title1,
+.title2,
+.title3 {
+    color: #202224;
+    text-transform: uppercase;
+}
+
+.paragraph {
+    color: #727272;
+    &_large {
+        line-height: 2.4rem;
+        font-size: 1.6rem;
+    }
+    &_medium {
+        line-height: 2.4rem;
+        font-size: 1.4rem;
+    }
+    &_small {
+        line-height: 1.8rem;
+        font-size: 1.2rem;
+    }
+}
